@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+   <title>Explorza</title>
+</head>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="../index.html" class="nav__logo">Explorza</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="../index.html" class="nav__link">Home</a>
+               </li>
+               
+               <li class="nav__item">
+                  <a href="#destinations" class="nav__link active-link">Destinations</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#bookings" class="nav__link">Bookings</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#news" class="nav__link">News & Blogs</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#ai-planner" class="nav__link">AI Trip Planner</a>
+               </li>
+
+            </ul>
+
+            <!-- CLOSE BTN -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle Btn -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!-- ==================== MAIN ==================== -->
+   <main class="main">
+
+      
+      <!-- ==================== SLIDER ==================== -->
+      <section id="destinations">
+         <div class="slider-container">
+         
+         <input id="slide1" type="radio" name="group" checked>
+         <input id="slide2" type="radio" name="group">
+         <input id="slide3" type="radio" name="group">
+         <input id="slide4" type="radio" name="group">
+         <input id="slide5" type="radio" name="group">
+         <input id="slide6" type="radio" name="group">
+         <input id="slide7" type="radio" name="group">
+
+         <div class="dots">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+            <label for="slide7"></label>
+         </div>
+
+         <div class="slider">
+            <div class="slide" style="background-image: url('assets/img-des/pak.jpg')">
+               <div class="content">
+                  <h2>Pakistan</h2>
+                  <p>Discover breathtaking mountains, rich culture, and timeless history.</p>
+               </div>
+               
+            </div>
+            
+
+            <div class="slide" style="background-image: url('assets/img-des/greece.jpg')">
+               <div class="content">
+                  <h2>Greece</h2>
+                  <p>Walk through ancient ruins and soak in the blue seas.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/hawaii.jpg')">
+               <div class="content">
+                  <h2>Hawaii</h2>
+                  <p>Paradise of golden beaches, volcanoes, and tropical vibes.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/portugal.jpg')">
+               <div class="content">
+                  <h2>Portugal</h2>
+                  <p>Explore charming cities, coastline, and delicious cuisine.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/swiss.jpg')">
+               <div class="content">
+                  <h2>Switzerland</h2>
+                  <p>Snowy Alps, serene lakes, and postcard-perfect beauty.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/morocco.jpg')">
+               <div class="content">
+                  <h2>Morocco</h2>
+                  <p>A land of deserts, colorful markets, and exotic culture.</p>
+               </div>
+               
+            </div>
+
+            <div class="slide" style="background-image: url('assets/img-des/norway.jpg')">
+               <div class="content">
+                  <h2>Norway</h2>
+                  <p>Witness majestic fjords, northern lights, and endless adventures.</p>
+               </div>
+               
+            </div>
+         <div class="slide__shadow"></div>
+         </div>
+      </div>
+      </section>
+      
+      
+      <!-- /////////////////////////////////////////BOOKING////////////////////////////////////////////// -->
+<section class="bookings section" id="bookings">
+  <div class="container">
+    <div class="headerText text-center">
+      <h2 class="section__title">Our Travel Packages</h2>
+      <p>
+        Choose the perfect travel package that fits your adventure and budget.
+        Each package includes guided tours, stays, and memorable experiences.
+      </p>
+    </div>
+
+    <div class="booking-grid mt-5">
+
+      <!-- Basic Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/beach.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+
+        <h3 class="card-title">Basic Package</h3>
+        <p class="card-desc">Perfect for solo or budget travelers.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>3 Nights Stay</li>
+          <li><i class="fas fa-check"></i>City Sightseeing</li>
+          <li><i class="fas fa-check"></i>Breakfast Included</li>
+        </ul>
+        <a href="#bookingmodal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Standard Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/hut.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3 class="card-title">Standard Package</h3>
+        <p class="card-desc">Best for families & couples who want comfort.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>5 Nights Stay</li>
+          <li><i class="fas fa-check"></i>Guided Tours</li>
+          <li><i class="fas fa-check"></i>Meals Included</li>
+        </ul>
+        <a href="#bookingmodal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Premium Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/mountains.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3 class="card-title">Premium Package</h3>
+        <p class="card-desc">Luxury experience with all-inclusive services.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>7 Nights Stay</li>
+          <li><i class="fas fa-check"></i>Luxury Hotels</li>
+          <li><i class="fas fa-check"></i>All Meals + Transport</li>
+        </ul>
+        <a href="#bookingmodal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Adventure Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/plane.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3 class="card-title">Adventure Package</h3>
+        <p class="card-desc">Thrill seekers’ favorite package.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>Mountain Trekking</li>
+          <li><i class="fas fa-check"></i>Camping</li>
+          <li><i class="fas fa-check"></i>Adventure Sports</li>
+        </ul>
+        <a href="#bookingmodal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Honeymoon Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/water.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3 class="card-title">Honeymoon Package</h3>
+        <p class="card-desc">Romantic getaways for couples.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>Luxury Suites</li>
+          <li><i class="fas fa-check"></i>Candlelight Dinners</li>
+          <li><i class="fas fa-check"></i>Private Tours</li>
+        </ul>
+        <a href="#bookingmodal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+      <!-- Business Package -->
+      <div class="custom-card">
+        <div class="icon-box bg-basic" 
+             style="display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;overflow:hidden;">
+          <img src="assets/img-des/plane.jpg" 
+               alt="Plane" 
+               style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h3 class="card-title">Business Package</h3>
+        <p class="card-desc">Travel packages tailored for professionals.</p>
+        <ul class="card-list">
+          <li><i class="fas fa-check"></i>5-Star Hotels</li>
+          <li><i class="fas fa-check"></i>Conference Rooms</li>
+          <li><i class="fas fa-check"></i>Airport Transfers</li>
+        </ul>
+        <a href="#booking-modal" class="button">Book Now <i class="ri-arrow-right-line"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- /////////////////////////////////////////NEWS & BLOGS////////////////////////////////////////////// -->
+<section class="news section" id="news">
+  <div class="container">
+    <div class="headerText text-center">
+      <h2 class="section__title">Latest News & Blogs</h2>
+      <p>
+        Stay updated with our latest travel news, tips, and blog posts. 
+        Explore stories from around the world written by our travelers.
+      </p>
+    </div>
+
+    <div class="news-grid mt-5">
+      <!-- Blog 1 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog1.jpg" alt="Blog 1" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Top 10 Destinations for 2025</h3>
+          <p class="news-desc">Discover the most trending places to visit this year, from beaches to mountains.</p>
+          <a href="#modal1" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog2.jpg" alt="Blog 2" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Travel Hacks for Budget Trips</h3>
+          <p class="news-desc">Smart tips to save money while enjoying your dream vacation to the fullest.</p>
+          <a href="#modal2" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="news-card">
+        <img src="assets/img-des/blog3.jpg" alt="Blog 3" class="news-img">
+        <div class="news-content">
+          <h3 class="news-title">Adventure Travel Guide</h3>
+          <p class="news-desc">All you need to know about trekking, hiking, and adventure activities worldwide.</p>
+          <a href="#modal3" class="button">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////AI-TRIP PLANNER////////////////////////////////////////////// -->
+<section class="ai-planner section" id="ai-planner">
+   <div class="container ai-layout">
+      <div class="ai-image">
+         <img src="assets/img-des/ai-planner.jpg" alt="AI Trip Planner">
+      </div>
+      <div class="ai-text">
+         <h2 class="section__title">AI Trip Planner</h2>
+         <p>Plan smarter journeys with Artificial Intelligence. Get personalized routes, budget insights, and instant suggestions.</p>
+         <ul class="ai-features">
+            <li><i class="ri-check-line"></i> Personalized itineraries</li>
+            <li><i class="ri-check-line"></i> Smart budgeting tips</li>
+            <li><i class="ri-check-line"></i> Real-time travel updates</li>
+         </ul>
+         <button class="button open-chatbot">Start Planning <i class="ri-arrow-right-line"></i></button>
+      </div>
+   </div>
+</section>
+
+<!-- ///////////////////////////// AI CHATBOT + ITINERARY MODAL ///////////////////////////// -->
+<div id="chatbotModal" class="modal-overlay">
+   <div class="modal-content chatbot-box">
+      <span class="modal-close">&times;</span>
+      
+      <div class="modal-header">
+         <h2>🌍 AI Travel Assistant</h2>
+         <p>Plan your trips smarter with AI – Chat or Generate Itinerary</p>
+      </div>
+
+      <!-- Chat Window -->
+      <div class="chat-window" id="chatWindow">
+         <div class="chat-message bot">Hello! 👋 How can I help you with your travel plans today?</div>
+      </div>
+
+      <!-- Chat Input -->
+      <form id="chatForm" class="chat-input-box">
+         <input type="text" id="chatInput" placeholder="Type your travel query..." required autocomplete="off">
+         <button type="submit">Send</button>
+         <button type="button" id="voiceBtn">🎤</button>
+      </form>
+
+      <hr style="margin:15px 0;border:1px solid #333;">
+
+      <!-- AI Trip Planner Form -->
+<div class="ai-planner-form">
+   <h3>🧭 Plan Your Trip</h3>
+   <form id="aiPlannerForm" class="planner-grid">
+      
+      <div class="form-group full-width">
+         <label for="location">📍 Destination</label>
+         <input type="text" id="location" placeholder="e.g. Paris, France" required>
+      </div>
+
+
+      <div class="form-group">
+        <label for="budget">💰 Your Budget ($)</label>
+        <div class="input-with-symbol">
+          <span class="symbol">$</span>
+          <input type="number" id="budget" placeholder="70 (min)" min="70" required>
+        </div>     
+      </div>
+
+
+
+      <div class="form-group">
+         <label for="days">📅 No. of Days</label>
+         <input type="number" id="days" placeholder="e.g. 5" required>
+      </div>
+
+      <div class="form-group full-width">
+         <label for="interests">🎯 Your Interests</label>
+         <select id="interests" required>
+            <option value="adventure">Adventure</option>
+            <option value="culture">Culture</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="luxury">Luxury</option>
+         </select>
+      </div>
+
+      <button type="submit" class="button full-width">✨ Generate Itinerary <i class="ri-arrow-right-line"></i></button>
+   </form>
+</div>
+
+
+      <!-- Itinerary Result -->
+      <div id="itineraryResult" class="itinerary-box">
+         <p>📌 Your detailed trip plan will appear here...</p>
+      </div>
+   </div>
+</div>
+
+<!-- <style>
+/* Modal Overlay */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-overlay.active { display: flex; }
+
+/* Modal Content */
+.modal-content {
+  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+  animation: fadeInUp 0.4s ease;
+  width: 100%;
+  max-width: 620px;
+  height: 90vh; /* responsive full height */
+  display: flex;
+  flex-direction: column;
+}
+@keyframes fadeInUp {
+  from {transform: translateY(50px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+/* Close Button */
+.modal-close {
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+}
+
+/* Chatbot Box Layout */
+.chatbot-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Chat Window */
+.chat-window {
+  flex: 1;
+  min-height: 250px;
+  background: #0f172a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.chat-message {
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+.chat-message.user {
+  background: #2563eb;
+  align-self: flex-end;
+  text-align: right;
+  color: #fff;
+}
+.chat-message.bot {
+  background: #444;
+  align-self: flex-start;
+  text-align: left;
+  color: #eee;
+}
+
+/* Chat Input */
+.chat-input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.chat-input-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+.chat-input-box button {
+  padding: 12px 16px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.chat-input-box button:hover { background: #1e40af; }
+
+/* Planner Form */
+.ai-planner-form {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.ai-planner-form h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #f9fafb;
+  text-align: center;
+}
+.planner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.form-group { display: flex; flex-direction: column; }
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #111827;
+  color: #f9fafb;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.4);
+}
+.full-width { grid-column: span 2; }
+.planner-grid button {
+  grid-column: span 2;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.planner-grid button:hover {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+}
+
+/* Itinerary Output */
+.itinerary-box {
+  flex: 1;
+  min-height: 250px;
+  background: #0f172a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.itinerary-box p {
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+</style> -->
+
+<style>
+  /* Modal Overlay */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-overlay.active { display: flex; }
+
+/* Modal Content */
+.modal-content {
+  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+  animation: fadeInUp 0.4s ease;
+  width: 100%;
+  max-width: 620px;
+  height: 90vh; /* responsive full height */
+  display: flex;
+  flex-direction: column;
+}
+@keyframes fadeInUp {
+  from {transform: translateY(50px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+/* Close Button */
+.modal-close {
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+}
+
+/* Chatbot Box Layout */
+.chatbot-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Chat Window */
+.chat-window {
+  flex: 1;
+  min-height: 250px;
+  background: #0f172a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat-message {
+  padding: 12px 16px;
+  margin: 8px 0;
+  border-radius: 12px;
+  max-width: 85%;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.chat-message.user {
+  background: #2563eb;
+  align-self: flex-end;
+  text-align: right;
+  color: #fff;
+  font-weight: 500;
+}
+
+.chat-message.bot {
+  background: #1e293b;
+  align-self: flex-start;
+  text-align: left;
+  color: #f1f5f9;
+  border-left: 4px solid #3b82f6;
+  font-weight: 400;
+}
+
+.chat-message.bot strong {
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+.chat-message.bot p {
+  margin: 6px 0;
+}
+
+/* Chat Input */
+.chat-input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.chat-input-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+.chat-input-box button {
+  padding: 12px 16px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.chat-input-box button:hover { background: #1e40af; }
+
+/* Planner Form */
+.ai-planner-form {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.ai-planner-form h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #f9fafb;
+  text-align: center;
+}
+.planner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.form-group { display: flex; flex-direction: column; }
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #111827;
+  color: #f9fafb;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.4);
+}
+.full-width { grid-column: span 2; }
+.planner-grid button {
+  grid-column: span 2;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.planner-grid button:hover {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+}
+
+/* Itinerary Output */
+.itinerary-box {
+  flex: 1;
+  min-height: 250px;
+  background: #0f172a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e2e8f0;
+}
+
+.itinerary-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #60a5fa;
+  margin: 10px 0 6px;
+  border-bottom: 1px dashed #334155;
+  padding-bottom: 4px;
+}
+
+.itinerary-box p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.itinerary-box ul {
+  margin: 6px 0 10px 18px;
+  padding: 0;
+}
+
+.itinerary-box li {
+  margin: 4px 0;
+  list-style-type:circle;
+  font-weight: 400;
+}
+
+</style>
+
+<!-- ////////////////////// MODALS ////////////////////// -->
+
+
+<!-- ////////////////////// BOOKING MODAL ////////////////////// -->
+<div id="bookingmodal" class="modal-overlay">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+
+    <form class="booking-form" id="bookingForm" novalidate>
+
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" 
+               id="name" 
+               placeholder="Enter your full name" 
+               required 
+               pattern="^[A-Za-z]+( [A-Za-z]+)*$"
+               title="Only alphabets and spaces allowed (no numbers or special characters)">
+      </div>
+
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" 
+               id="email" 
+               placeholder="Enter your email" 
+               required
+               title="Enter a valid email (must include @)">
+      </div>
+
+  
+      <div class="form-group">
+        <label for="package">Select Package</label>
+        <select id="package" required>
+          <option value="">-- Select --</option>
+          <option>Basic Package</option>
+          <option>Standard Package</option>
+          <option>Premium Package</option>
+          <option>Adventure Package</option>
+          <option>Honeymoon Package</option>
+          <option>Business Package</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" required>
+      </div>
+
+
+      <div class="form-group">
+        <label for="persons">No. of Travelers</label>
+        <input type="number" 
+               id="persons" 
+               min="1" 
+               value="1" 
+               required 
+               title="Minimum 1 traveler required">
+      </div>
+
+      <button type="submit" class="modal-btn">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- ////////////////////// READ MORE MODALS ////////////////////// -->
+
+
+
+<div id="modal1" class="modal">
+  <div class="modal-content1 modal-content">
+    <a href="#news" class="close">&times;</a>
+    <h2>Top 10 Destinations for 2025</h2>
+    <p>
+      Travel in 2025 is going to be more exciting than ever, with new trends, sustainable choices, 
+      and unique experiences shaping the way people explore the world. Whether you love sunny beaches, 
+      snowy mountains, or vibrant cityscapes, these destinations will give you unforgettable memories.<br><br>
+         
+      <strong>1. Bali, Indonesia:</strong> Famous for its tropical beaches, lush rice terraces, and spiritual temples. Perfect for relaxation and cultural exploration.<br><br>
+         
+      <strong>2. Swiss Alps, Switzerland:</strong> A dreamland for nature lovers and adventure seekers. Ski in the winter, hike in the summer, and enjoy the most scenic train rides in the world.<br><br>
+         
+      <strong>3. Kyoto, Japan:</strong> Step into the past with ancient temples, cherry blossoms, and traditional tea ceremonies. A blend of modern life and timeless tradition.<br><br>
+         
+      <strong>4. Santorini, Greece:</strong> Whitewashed houses, blue domes, stunning sunsets, and crystal-clear waters make it a bucket-list paradise.
+</p>
+
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content2 modal-content">
+    <a href="#news" class="close">&times;</a>
+    <h2>Travel Hacks for Budget Trips</h2>
+    <p>
+  Learn effective hacks to save money while still enjoying unforgettable trips. 
+  This guide will help you travel smarter and cheaper without missing out on amazing experiences.<br><br>
+
+  <strong>1. Budget Travel Tips:</strong> Discover simple ways to cut down your travel expenses without sacrificing comfort and fun.<br><br>
+
+  <strong>2. Smart Bookings:</strong> Learn when and how to book flights, hotels, and activities at the best prices.<br><br>
+
+  <strong>3. Money-Saving Hacks:</strong> From local food to affordable transport, explore easy tricks to keep your costs low.<br><br>
+
+  <strong>4. Travel Like a Pro:</strong> Pack wisely, use discounts, and make the most of every trip while staying on budget.
+</p>
+
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content3 modal-content">
+    <a href="#news" class="close">&times;</a>
+    <h2>Adventure Travel Guide</h2>
+    <p>
+  Discover everything about trekking, hiking, and other adventure activities that bring thrill and unforgettable memories. 
+  From safety tips to destination guides, here’s all you need to know for your next adventure.<br><br>
+
+  <strong>1. Trekking & Hiking:</strong> Learn the basics of trekking and hiking, from choosing the right trails to preparing physically for the journey.<br><br>
+
+  <strong>2. Safety First:</strong> Essential tips to stay safe during your adventures — from weather awareness to emergency preparedness.<br><br>
+
+  <strong>3. Packing Guide:</strong> A complete checklist on what to carry, including gear, clothing, and essentials for different terrains.<br><br>
+
+  <strong>4. Adventure Destinations:</strong> Explore some of the world’s best adventure spots, from snowy mountains to tropical jungles.<br><br>
+
+  <strong>5. Travel Smart:</strong> Save money, find local guides, and make the most of every adventure without overspending.
+</p>
+
+  </div>
+</div>
+
+
+
+      
+</main>
+   
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content grid">
+            <div>
+               <a href="#" class="footer__logo">Explorza</a>
+               <p class="footer__description">
+                  Join us on unforgettable journeys <br>
+                  and discover the world without boundaries.
+               </p>
+            </div>
+
+            <div>
+              <a href="#" class="footer__logo">
+                 <img src="../assets/img/logo.png" alt="explorza_logo" height="150px" width="150px" py="120px">
+              </a>
+            </div>
+            
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">About Us</a></li>
+                     <li><a href="#" class="footer__link">Features</a></li>
+                     <li><a href="#" class="footer__link">News & Blog</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Company</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">FAQS</a></li>
+                     <li><a href="#" class="footer__link">History</a></li>
+                     <li><a href="#" class="footer__link">Testimonials</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">Call Center</a></li>
+                     <li><a href="#" class="footer__link">Support Center</a></li>
+                     <li><a href="#" class="footer__link">Contact Us</a></li>
+                  </ul>
+               </div>
+               
+               <div>
+                  <h3 class="footer__title">Support</h3>
+                  <ul class="footer__links">
+                     <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                     <li><a href="#" class="footer__link">Terms & Services</a></li>
+                     <li><a href="#" class="footer__link">Payments</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="footer__group">
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-line"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-twitter-line"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-line"></i>
+                  </a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169; Copyright Hammad Ahmed. All rights reserved
+               </span>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // ----- Elements -----
+  const chatbotModal = document.getElementById('chatbotModal');
+  const openChatbotBtns = document.querySelectorAll('.open-chatbot');
+  const modalCloseBtns = document.querySelectorAll('.modal-close');
+  const overlays = document.querySelectorAll('.modal-overlay');
+  const chatForm = document.getElementById('chatForm');
+  const chatInput = document.getElementById('chatInput');
+  const chatWindow = document.getElementById('chatWindow');
+  const voiceBtn = document.getElementById('voiceBtn');
+
+  // ----- Generic modal open/close helpers -----
+  function openModal(modal) {
+    if (!modal) return;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    const focusEl = modal.querySelector('input, textarea, button');
+    if (focusEl) focusEl.focus();
+  }
+
+  function closeModal(modal) {
+    if (!modal) return;
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+    // 🛑 Stop TTS when modal closes
+    window.speechSynthesis.cancel();
+  }
+
+  // ----- Open chatbot with any .open-chatbot button -----
+  openChatbotBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal(chatbotModal);
+    });
+  });
+
+  // ----- Support anchors like <a href="#bookingmodal"> to open modal-overlay elements -----
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    const id = (a.getAttribute('href') || '').slice(1);
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    a.addEventListener('click', (e) => {
+      if (target.classList.contains('modal-overlay')) {
+        e.preventDefault();
+        openModal(target);
+      } else if (target.classList.contains('modal')) {
+        e.preventDefault();
+        target.style.display = 'block';
+      }
+    });
+  });
+
+  // ----- Close buttons -----
+  modalCloseBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const modal = e.target.closest('.modal-overlay') || e.target.closest('.modal');
+      if (modal) closeModal(modal);
+    });
+  });
+
+  // ----- Click outside overlay to close -----
+  overlays.forEach(overlay => {
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeModal(overlay);
+    });
+  });
+
+  // ----- Close .modal (read-more) -----
+  document.querySelectorAll('.modal .close').forEach(c => {
+    c.addEventListener('click', (e) => {
+      e.preventDefault();
+      const modal = c.closest('.modal');
+      if (modal) modal.style.display = 'none';
+      window.speechSynthesis.cancel(); // also stop TTS
+    });
+  });
+
+  // ----- Escape key closes modals -----
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.active').forEach(m => closeModal(m));
+      document.querySelectorAll('.modal').forEach(m => { 
+        m.style.display = 'none'; 
+      });
+      window.speechSynthesis.cancel(); // stop TTS on ESC
+    }
+  });
+
+  // ---------------- Chat system ----------------
+  function appendMessage(text, who='bot') {
+    if (!chatWindow) return;
+    const msg = document.createElement('div');
+    msg.classList.add('chat-message', who === 'user' ? 'user' : 'bot');
+    msg.textContent = text;
+    chatWindow.appendChild(msg);
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+  }
+
+  async function sendMessage(message) {
+    if (!message || !chatWindow) return;
+    appendMessage(message, 'user');
+
+    const typing = document.createElement('div');
+    typing.classList.add('chat-message','bot');
+    typing.textContent = '🤖 Processing...';
+    chatWindow.appendChild(typing);
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+
+    if (chatInput) chatInput.value = '';
+
+    try {
+      const res = await fetch('chatgpt.php', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message})
+      });
+      const data = await res.json();
+      typing.remove();
+
+      if (data.error) {
+        appendMessage('⚠️ ' + data.error, 'bot');
+      } else {
+        const botText = data.text || data.message || '⚠️ Unexpected response from server.';
+        appendMessage(botText, 'bot');
+
+        try {
+          window.speechSynthesis.cancel();
+          const utt = new SpeechSynthesisUtterance(botText);
+          utt.lang = 'en-US'; // set to 'ur-PK' if Urdu needed
+          window.speechSynthesis.speak(utt);
+        } catch (err) {
+          console.warn('TTS error', err);
+        }
+      }
+    } catch (err) {
+      typing.remove();
+      appendMessage('⚠️ Network error. Check console for details.', 'bot');
+      console.error(err);
+    }
+  }
+
+  if (chatForm) {
+    chatForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const msg = chatInput.value.trim();
+      if (msg) sendMessage(msg);
+    });
+  }
+
+  // ---------------- Speech-to-Text (STT) ----------------
+  const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  if (SpeechRecognitionAPI && voiceBtn) {
+    const recog = new SpeechRecognitionAPI();
+    recog.lang = 'en-US'; 
+    recog.interimResults = false;
+    recog.maxAlternatives = 1;
+
+    voiceBtn.addEventListener('click', () => {
+      if (voiceBtn.dataset.listening === '1') {
+        recog.stop();
+        return;
+      }
+      try {
+        recog.start();
+        voiceBtn.dataset.listening = '1';
+        voiceBtn.textContent = '🎙️ Listening...';
+      } catch (err) {
+        console.error('STT start error', err);
+      }
+    });
+
+    recog.onresult = (e) => {
+      const transcript = e.results[0][0].transcript;
+      if (chatInput) chatInput.value = transcript;
+      sendMessage(transcript);
+      voiceBtn.dataset.listening = '0';
+      voiceBtn.textContent = '🎤';
+    };
+
+    recog.onerror = (e) => {
+      console.error('Speech recognition error:', e);
+      alert('Speech recognition error: ' + (e.error || 'unknown'));
+      voiceBtn.dataset.listening = '0';
+      voiceBtn.textContent = '🎤';
+    };
+
+    recog.onend = () => {
+      voiceBtn.dataset.listening = '0';
+      voiceBtn.textContent = '🎤';
+    };
+  } else if (voiceBtn) {
+    voiceBtn.disabled = true;
+    voiceBtn.title = 'Speech recognition not supported in this browser (use Chrome/Edge over HTTPS or localhost)';
+    voiceBtn.textContent = '❌';
+  }
+
+}); // DOMContentLoaded
+</script>
+
+   
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const chatbotModal = document.getElementById('chatbotModal');
+  const openChatbotBtns = document.querySelectorAll('.open-chatbot');
+  const modalCloseBtns = document.querySelectorAll('.modal-close');
+  const chatForm = document.getElementById('chatForm');
+  const chatInput = document.getElementById('chatInput');
+  const chatWindow = document.getElementById('chatWindow');
+  const voiceBtn = document.getElementById('voiceBtn');
+
+  function openModal(modal){ 
+    modal.classList.add('active'); 
+    document.body.style.overflow='hidden'; 
+  }
+  function closeModal(modal){ 
+    modal.classList.remove('active'); 
+    document.body.style.overflow=''; 
+    window.speechSynthesis.cancel(); 
+  }
+
+  openChatbotBtns.forEach(btn => 
+    btn.addEventListener('click', e => { 
+      e.preventDefault(); 
+      openModal(chatbotModal); 
+    })
+  );
+  modalCloseBtns.forEach(btn => 
+    btn.addEventListener('click', e => { 
+      closeModal(chatbotModal); 
+    })
+  );
+
+  function appendMessage(text, who='bot'){
+    const msg=document.createElement('div'); 
+    msg.classList.add('chat-message',who); 
+    msg.textContent=text;
+    chatWindow.appendChild(msg); 
+    chatWindow.scrollTop=chatWindow.scrollHeight;
+  }
+
+  async function sendMessage(message){
+    appendMessage(message,'user');
+    const typing=document.createElement('div'); 
+    typing.classList.add('chat-message','bot'); 
+    typing.textContent='🤖 Processing...';
+    chatWindow.appendChild(typing);
+    chatInput.value='';
+    try{
+      const res=await fetch('chatgpt.php',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({message})
+      });
+      const data=await res.json(); 
+      typing.remove();
+      const botText=data.text||"⚠️ Unexpected response"; 
+      appendMessage(botText,'bot');
+    }catch(err){ 
+      typing.remove(); 
+      appendMessage('⚠️ Network error.','bot'); 
+    }
+  }
+
+  chatForm.addEventListener('submit', e=>{
+    e.preventDefault(); 
+    const msg=chatInput.value.trim(); 
+    if(msg) sendMessage(msg); 
+  });
+
+  // 🟢 AI Planner Form (with Location)
+  document.getElementById('aiPlannerForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const location=document.getElementById('location').value;
+    const budget=document.getElementById('budget').value;
+    const days=document.getElementById('days').value;
+    const interests=document.getElementById('interests').value;
+
+    const itineraryBox=document.getElementById('itineraryResult');
+    itineraryBox.innerHTML="<p>⏳ Generating your optimized plan...</p>";
+
+    try{
+      const res=await fetch('chatgpt.php',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          type:"planner",
+          location,
+          budget,
+          days,
+          interests
+        })
+      });
+      const data=await res.json();
+
+            // ✅ Replace Markdown-like formatting with HTML
+      let formatted = data.text
+        .replace(/### (.*)/g,"<h3>$1</h3>")
+        .replace(/#### (.*)/g,"<h4>$1</h4>")
+        .replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>")
+        .replace(/- (.*)/g,"<li>$1</li>");
+
+      // Wrap list items inside <ul>
+      formatted = formatted.replace(/(<li>.*<\/li>)/gs, "<ul>$1</ul>");
+
+      itineraryBox.innerHTML= formatted || "<p>⚠️ Unable to generate plan</p>";
+    }catch(err){ 
+      itineraryBox.innerHTML="<p>⚠️ Network Error.</p>"; 
+    }
+  });
+});
+</script>
+
+
+
+
+<!-- <script>
+  document.getElementById('aiPlannerForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const budget = document.getElementById('budget').value;
+  const days = document.getElementById('days').value;
+  const interests = document.getElementById('interests').value;
+
+  const itineraryBox = document.getElementById('itineraryResult');
+  itineraryBox.innerHTML = "<p>⏳ Generating your optimized plan...</p>";
+
+  try {
+    const res = await fetch('chatgpt.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        type: "planner",
+        budget,
+        days,
+        interests
+      })
+    });
+
+    const data = await res.json();
+    itineraryBox.innerHTML = `<pre>${data.text || "⚠️ Unable to generate plan"}</pre>`;
+
+  } catch (err) {
+    itineraryBox.innerHTML = "<p>⚠️ Network Error. Please try again.</p>";
+  }
+});
+
+</script> -->
+   
+   
+    </body>
+</html>

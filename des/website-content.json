@@ -1,0 +1,236 @@
+{
+  "travel_planner": {
+    "conditions": {
+      "budget": [
+        "Shoestring (Ultra Low)",
+        "Low",
+        "Medium",
+        "High",
+        "Luxury",
+        "Backpacker",
+        "All-Inclusive",
+        "Business Class",
+        "Ultra Luxury (VIP)"
+      ],
+      "duration": [
+        "Weekend (2-3 Days)",
+        "Short Trip (4-6 Days)",
+        "1 Week",
+        "2 Weeks",
+        "1 Month",
+        "Long Stay (3+ Months)",
+        "Gap Year / Extended Travel"
+      ],
+      "preference": [
+        "Adventure",
+        "Relaxation",
+        "Luxury",
+        "Honeymoon",
+        "Business",
+        "Family Friendly",
+        "Solo Travel",
+        "Group Travel",
+        "Cultural & Heritage",
+        "Spiritual & Pilgrimage",
+        "Wellness & Yoga",
+        "Food & Culinary",
+        "Wildlife Safari",
+        "Cruise Experience",
+        "Road Trip",
+        "Festival & Events",
+        "Volunteering & Social Work",
+        "Educational / Study Abroad",
+        "Medical Tourism"
+      ],
+      "destination_type": [
+        "Mountains",
+        "Beaches",
+        "Cities",
+        "Historical Sites",
+        "Deserts",
+        "Forests & Jungles",
+        "Islands",
+        "Countryside & Villages",
+        "Theme Parks",
+        "Arctic & Polar Regions",
+        "National Parks",
+        "Religious Destinations",
+        "Modern Metropolises",
+        "Rural Escapes"
+      ],
+      "travel_style": [
+        "Luxury Resorts",
+        "Budget Hostels",
+        "Camping",
+        "Glamping",
+        "Eco-Friendly Travel",
+        "Backpacking",
+        "Private Villas",
+        "Cruise Ships",
+        "Road Trips (Car / Bike)",
+        "Train Journeys",
+        "Digital Nomad Lifestyle",
+        "Adventure Tours",
+        "Wellness Retreats"
+      ],
+      "transport": [
+        "Flights",
+        "Train",
+        "Cruise / Ferry",
+        "Car Rental",
+        "Bus Tours",
+        "Private Chauffeur",
+        "Cycling",
+        "Walking Tours",
+        "Helicopter",
+        "Private Jet"
+      ],
+      "season": [
+        "Winter",
+        "Summer",
+        "Spring",
+        "Autumn",
+        "All-Year Round",
+        "Monsoon / Rainy Season",
+        "Peak Tourist Season",
+        "Off-Season / Budget Season"
+      ],
+      "activities": [
+        "Sightseeing",
+        "Trekking / Hiking",
+        "Water Sports (Scuba, Surfing, Snorkeling)",
+        "Snow Sports (Skiing, Snowboarding)",
+        "Cultural Tours",
+        "Shopping",
+        "Nightlife & Parties",
+        "Local Food Tours",
+        "Photography Trips",
+        "Wildlife Safari",
+        "Religious Pilgrimage",
+        "Festivals & Carnivals",
+        "Wellness (Spa, Yoga, Meditation)",
+        "Extreme Adventure (Skydiving, Bungee Jumping)",
+        "Workshops (Cooking, Art, Language)"
+      ],
+      "accommodation": [
+        "5-Star Hotels",
+        "3-4 Star Hotels",
+        "Budget Guesthouses",
+        "Airbnb / Rentals",
+        "Capsule Hotels",
+        "Hostels",
+        "Luxury Villas",
+        "Treehouses",
+        "Houseboats",
+        "Desert Camps"
+      ],
+      "food_preference": [
+        "Local Cuisine",
+        "Vegetarian",
+        "Vegan",
+        "Halal",
+        "Kosher",
+        "Seafood",
+        "Street Food",
+        "Fine Dining",
+        "Organic / Healthy",
+        "Gluten-Free Options"
+      ],
+      "safety": [
+        "Low Risk",
+        "Medium Risk",
+        "High Risk",
+        "Women-Friendly",
+        "Family-Friendly",
+        "Adventure Risk Level"
+      ],
+      "health": [
+        "Vaccination Required",
+        "Travel Insurance Required",
+        "First Aid Accessibility",
+        "Emergency Hospitals Nearby"
+      ],
+      "visa": [
+        "Visa-Free",
+        "Visa on Arrival",
+        "E-Visa Available",
+        "Pre-Approved Visa Required"
+      ],
+      "insurance": [
+        "Medical Insurance",
+        "Travel Insurance",
+        "Lost Baggage Insurance",
+        "Flight Cancellation Insurance"
+      ],
+      "languages": [
+        "English",
+        "Urdu",
+        "Arabic",
+        "French",
+        "Spanish",
+        "German",
+        "Chinese (Mandarin)",
+        "Japanese",
+        "Russian",
+        "Italian",
+        "Portuguese",
+        "Turkish",
+        "Korean",
+        "Hindi",
+        "Bengali",
+        "Persian (Farsi)",
+        "Thai",
+        "Malay/Indonesian"
+      ],
+      "tech_tools": [
+        "Travel Apps",
+        "Google Maps",
+        "Offline Maps",
+        "Translator Apps",
+        "Currency Converter",
+        "Weather Apps",
+        "Ride-Sharing Apps"
+      ],
+      "sustainability": [
+        "Eco-Friendly Stays",
+        "Carbon Offset Flights",
+        "Local Community Support",
+        "Plastic-Free Travel",
+        "Wildlife-Friendly Tours"
+      ]
+    },
+    "sample_plan": {
+      "budget": "Luxury",
+      "duration": "2 Weeks",
+      "preference": "Honeymoon",
+      "destination": "Maldives + Dubai",
+      "accommodation": "Overwater Villa + 5-Star Hotel",
+      "transport": "Flights + Private Chauffeur",
+      "season": "Winter",
+      "activities": [
+        "Island Hopping",
+        "Snorkeling",
+        "Luxury Spa",
+        "Desert Safari",
+        "Skydiving in Dubai",
+        "Fine Dining Experience"
+      ],
+      "itinerary": [
+        "Day 1: Arrival in Male, speedboat transfer to Overwater Villa",
+        "Day 2: Private Island Picnic + Snorkeling Adventure",
+        "Day 3: Dolphin Cruise + Candlelight Beach Dinner",
+        "Day 4: Spa & Wellness Retreat + Photography Session",
+        "Day 5: Local Food Tour + Shopping in Male",
+        "Day 6: Flight to Dubai, check-in at 5-Star Hotel",
+        "Day 7: Desert Safari + Camel Ride + BBQ Dinner",
+        "Day 8: Dubai Mall + Burj Khalifa + Fountain Show",
+        "Day 9: Skydiving + Helicopter Ride",
+        "Day 10: Luxury Yacht Party + Nightlife Experience",
+        "Day 11: Cultural Heritage Tour + Souk Market",
+        "Day 12: Day trip to Abu Dhabi Grand Mosque",
+        "Day 13: Relaxation + Fine Dining",
+        "Day 14: Departure"
+      ]
+    }
+  }
+}
